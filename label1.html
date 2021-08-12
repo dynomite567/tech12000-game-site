@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<!-- <style>
+    body{
+        background-image: url("img/image.jpg");
+        background-size:cover;
+    }    
+/* @media screen and (max-width: 1000px){
+  .box{
+    width: 100%;
+  }
+  .popup{
+    width: 100%;
+  } */
+}
+</style> -->
+
+<body>
+    <div class="main">
+    
+    <!-- <center> <p style="color: black;font-weight: bolder; font-size: 100px;">LEVEL-1</p></center>
+    <center><h1 style="color: brown;">Which one of the following is an example of a scam/malicious website?</h1></center> -->
+    <img class="imgsize" src="img/CYBER SECURITY GAME_Page_2.jpg" usemap="#image-maps">
+    <map name="image-maps">
+        <area target="_self" alt="option1" title="option1" href="#popup1" coords="242,545,563,707" shape="rect">
+        <area target="_self" alt="option2" title="option2" href="#popup2" coords="910,543,1269,709" shape="rect">
+    </map>
+    
+    <!-- <div style="margin-left: 150px;padding-bottom: 20px;">
+        <img src="img/Option1.JPG"style="margin-right: 150px;" class="responsive">
+        <img src="img/Option2.JPG"  class="responsive">
+    </div>
+
+    <div class="btndiv">
+        <div style="margin-left: 120px;color: white;">
+        <a class="button" href="#popup1"  >Option 1</a></div>
+        <div style="margin-left: 400px;color: white;"><a class="button" href="#popup2"   >Option 2</a></div>
+    </div> -->
+
+    <div id="popup3" class="overlay">
+        <div class="popup">
+        
+            <a class="close" href="#">&times;</a>
+            
+              <img src="img/CorrectExplain.png" width="610px" height="450px">
+        </div>
+</div> 
+<div id="popup4" class="overlay">
+    <div class="popup">
+    
+        <a class="close" href="#">&times;</a>
+        
+          <img src="img/IncorrectExplain.png" width="610px" height="450px">
+    </div>
+</div>  
+<div id="popup1" class="overlay">
+	<div class="popup">
+	
+		<a class="close" href="#">&times;</a>
+        
+          <img src="img/Incorrect.png" usemap="#image-map11" width="610px" height="450px">
+
+<map name="image-map11">
+    <area target="_self" alt="Reason1" title="Reason1" href="#popup3" coords="500,490,283,348" shape="rect">
+</map>
+		
+	</div>
+</div>
+
+<div id="popup2" class="overlay">
+	<div class="popup">	
+		<a class="close" href="#">&times;</a>
+        <img src="img/Correct.png" usemap="#image-map22"  width="610px" height="450px">
+
+        <map name="image-map22">
+            <area target="_self" alt="Reason2" title="Reason2" href="#popup4" coords="500,490,283,348" shape="rect">
+        </map>
+		
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
